@@ -63,7 +63,7 @@ function TimerCard({ id, seconds, createdAt, onDelete }) {
     <div className="timer-card">
       <div>
         <div className="timer-sec">{remainingTime.toFixed(2)}</div>
-        <div className="timer-created">{createdAt.slice(0,19)}</div>
+        <div className="timer-created">{createdAt.slice(0,20)}</div>
       </div>
       <button className="timer-delete-button" onClick={() => onDelete(id)}>X</button>
     </div>
